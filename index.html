@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>Google</title>
+</head>
+<body>
+    <section class="back-image" id="bg">
+      <div class="main">
+          <img src="images/google.png" alt="">
+          <div class="searchbx">
+              <input type="text" value="" class="query" onkeypress="handle(event)">
+              <div class="icon">
+                  <div><img src="images/search.png" alt="Search"></div>
+                  <div><img src="images/mic.png" alt=""></div>
+              </div>
+          </div>
+          <div class="button">
+              <button class="searchbtn">Google Search</button>
+          </div>
+      </div>
+
+      <div class="back">
+          <button class="background">Change Back-Color</button>
+      </div>
+
+      <input type="file" id="getval" name="backgroundimage"><br><br/>
+
+      <label for="getval" class="uploaded">
+          <i class="far fa-images"></i>
+      </label>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
